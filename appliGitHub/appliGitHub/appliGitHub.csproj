@@ -55,6 +55,12 @@
     <Compile Include="FsaisieService.Designer.cs">
       <DependentUpon>FsaisieService.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNom.Designer.cs">
+      <DependentUpon>FormNom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Service.cs" />
     <EmbeddedResource Include="FsaisieService.resx">
       <DependentUpon>FsaisieService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNom.resx">
+      <DependentUpon>FormNom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
