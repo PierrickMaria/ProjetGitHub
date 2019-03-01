@@ -24,8 +24,8 @@ namespace appliGitHub
 
         private void employeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var FormSaisie = new FsaisieService();
-            FormSaisie.Show();
+            var FormNom = new FsaisieEmploye();
+            FormNom.Show();
         }
 
         private void serviceToolStripMenuItem_Click(object sender, EventArgs e)
