@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace appliGitHub
 {
-    public partial class FormNom : Form
+    public partial class FsaisieEmploye : Form
     {
-        public FormNom()
+        public FsaisieEmploye()
         {
             InitializeComponent();
+        }
+
+        private void buttonValide_Click(object sender, EventArgs e)
+        {
+            var newEmploye = new Employe(textBoxNom.Text ,textBoxPrenom.Text);
+            MessageBox.Show("Employé ajouté : " + newEmploye.ToString());
         }
     }
 }

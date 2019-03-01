@@ -23,6 +23,12 @@ namespace appliGitHub
             this.tel = ptel;
         }
 
+        public Employe(string pnom, string pprenom)
+        {
+            this.nom = pnom;
+            this.prenom = pprenom;
+        }
+
         public string GetNom()
         {
             return this.nom;
