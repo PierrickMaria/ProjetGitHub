@@ -21,5 +21,22 @@ namespace appliGitHub
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_valider_Click(object sender, EventArgs e)
+        {
+            var newService = new Service(int.Parse(txt_id.Text), txt_libelle.Text);
+            MessageBox.Show("Service ajouté avec succès : " + newService.ToString());
+
+        }
+
+        private void btn_annuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
