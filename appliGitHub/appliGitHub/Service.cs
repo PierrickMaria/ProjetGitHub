@@ -32,5 +32,10 @@ namespace appliGitHub
         {
             this.libelle = libellee;
         }
+
+        public string ToString()
+        {
+            return "Identifiant : " + this.id + "\n Libelle : " + this.libelle;
+        }
     }
 }
