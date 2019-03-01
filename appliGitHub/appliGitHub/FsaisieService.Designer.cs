@@ -82,6 +82,7 @@
             this.Name = "FsaisieService";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Saisie service";
+            this.Load += new System.EventHandler(this.FsaisieService_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
