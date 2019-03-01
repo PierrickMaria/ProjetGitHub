@@ -16,7 +16,10 @@ namespace appliGitHub
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Application.Run(new FormNom());
+
+ 
         }
     }
 }
