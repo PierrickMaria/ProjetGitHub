@@ -1,6 +1,6 @@
 ﻿namespace appliGitHub
 {
-    partial class Form1
+    partial class FormNom
     {
         /// <summary>
         /// Variable nécessaire au concepteur.

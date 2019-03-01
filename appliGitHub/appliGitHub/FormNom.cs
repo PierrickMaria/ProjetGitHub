@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace appliGitHub
 {
-    public partial class Form1 : Form
+    public partial class FormNom : Form
     {
-        public Form1()
+        public FormNom()
         {
             InitializeComponent();
         }
